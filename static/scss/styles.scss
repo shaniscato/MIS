@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+$theme-colors: (
+  "primary": #4dc4d4
+);
+body{
+    font-family: 'Poppins', sans-serif;
+}
+//Required
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Overrides
+
+//CSS
+/*Colors*/
+.bg-turquoise{
+    background:#4dc4d4;
+}
+.btn-turquoise{
+    background:#4dc4d4;
+    color:#fff;
+}
+.grey{
+    background-color: #f0f0f0;
+    border:none;
+}
+.turquoise{
+    color:#4dc4d4;
+}
+/*Classes*/
+.card-body{
+    padding-bottom: 0;
+}
+.details{
+    background-color: #DFFBFF;
+    border:none;
+}
+.details a{
+    font-size:26px;
+    text-decoration: none;
+    color:#4cb2b7;
+}
+.search{
+    margin: 30px 0 ;
+}
+/*IDs*/
+#sales-form{
+    margin: 50px 0 50px 0;
+}
+#sales-form .row{
+    margin-bottom: 25px;
+}
