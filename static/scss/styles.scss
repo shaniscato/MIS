@@ -30,6 +30,12 @@ body{
 .card-body{
     padding-bottom: 0;
 }
+.date{
+    margin:40px 0;
+}
+.date p{
+    margin-bottom: 0.25rem
+}
 .details{
     background-color: #DFFBFF;
     border:none;
@@ -39,13 +45,42 @@ body{
     text-decoration: none;
     color:#4cb2b7;
 }
+.form-control{
+    border-radius: 0.8rem;
+}
 .search{
     margin: 30px 0 ;
 }
+.single-invoice hr{
+    color:#4cb2b7;
+}
+.single-invoice thead{
+    color:#4dc4d4;
+}
+.tab-pane{
+    padding:40px 30px;
+}
+.total{
+    margin-top:60px;
+}
 /*IDs*/
+#add-prod-form{
+    padding-top: 20px;
+}
+#prod-search{
+    padding-bottom: 30px;
+}
 #sales-form{
     margin: 50px 0 50px 0;
 }
+#sales-form .form-select{
+    padding: 0.375rem 0.75rem;
+    height: calc(1.5em + 0.75rem + 2px);
+    border-radius: 0.8rem;
+}
 #sales-form .row{
     margin-bottom: 25px;
+}
+#manage-prod-tab .nav-item{
+    padding-right: 10px;
 }
